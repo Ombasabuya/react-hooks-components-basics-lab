@@ -25,12 +25,22 @@ function About() {
   );
 }
 
+function Welcome() {
+  return (
+    <div id="welcome">
+    <h3>Welcome</h3>
+    </div>
+  );
+}
+
+
 function App() {
   return (
     <div>
       <NavBar />
       <Home/>
       <About/>
+      <Welcome/>
       {/* add the <Home> component here */}
       {/* add your <About> component here */}
     </div>
